@@ -9,7 +9,7 @@ defmodule Ask2 do
             module.
         """
 
-        @vsn 1.0.0
+        @vsn 1.0
 
         @doc """
             Ask for a planet and distance to fall.
