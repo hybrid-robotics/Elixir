@@ -1,10 +1,10 @@
 defmodule Convert do
-	@moduledoc """
-	Functions converting velocities between various units.
+@moduledoc """
+Functions converting velocities between various units.
 
-	from *Introducing Elixir*, O'Reilly Media, Inc., 2014.
-	Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
-    """
+from *Introducing Elixir*, O'Reilly Media, Inc., 2014.
+Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
+"""
 
 	@vsn 0.2
 

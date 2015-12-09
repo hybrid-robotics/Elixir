@@ -1,4 +1,8 @@
 defmodule Fact do
+@moduledoc """
+From *Introducing Elixir*, O'Reilly Media, Inc., 2014.
+Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
+"""
 
     def factorialDown(n) when n > 1 do
         IO.puts("Calling from #{n}.")

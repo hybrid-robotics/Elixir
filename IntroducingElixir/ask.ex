@@ -1,8 +1,8 @@
 defmodule Ask do
-	@moduledoc """
-	From *Introducing Elixir*, O'Reilly Media, Inc., 2014.
-	Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
-    """
+@moduledoc """
+From *Introducing Elixir*, O'Reilly Media, Inc., 2014.
+Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
+"""
 
     @vsn 0.1
 

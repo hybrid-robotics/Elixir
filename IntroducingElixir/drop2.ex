@@ -1,10 +1,10 @@
 defmodule Drop2 do
-	@moduledoc """
-	Functions calculating velocities achieved by objects dropped in a vacuum.
+@moduledoc """
+Functions calculating velocities achieved by objects dropped in a vacuum.
 
-	from *Introducing Elixir*, O'Reilly Media, Inc., 2014.
-	Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
-    """
+from *Introducing Elixir*, O'Reilly Media, Inc., 2014.
+Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
+"""
 
     @vsn 0.4
 
