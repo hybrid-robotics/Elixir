@@ -1,0 +1,31 @@
+atomic_weights = [hydrogen: 1.008, carbon: 12.011, sodium: 22.99
+
+ages = [david: 59, simon: 40, cathy: 28, simon: 30]
+
+
+Keyword.get(atomic_weights, :hydrogen)
+
+Keyword.get(atomic_weights, :neon)
+
+Keyword.get(atomic_weights, :carbon, 0)
+
+Keyword.get(atomic_weights, :neon, 0)
+
+Keyword.fetch!(atomic_weights, :neon)
+
+
+atomic_info = [{:hydrogen, :H, 1008}, {:carbon, :C, 12.011},{:sodium,:Na,22.99}]
+
+List.keyfind(atomic_info, :H, 1
+
+planemo_hash = Enum.into([earth: 9.8, moon: 1.6, mars: 3.71], HashDict.new())
+
+tower2 = %Tower{location: "Grand Canyon"}
+
+tower3 = %Tower{location: "NYC", height: 241, name: "Woolworth Building"}
+
+tower4 = %Tower{location: "Rupes Altat 241", height: 500, planemo: :moon, name: "Piccolini View"}
+
+tower5 = %Tower{planemo: :mars, height: 500, name: "Daga Vallis", location: "Valles Marineris"}
+
+%Tower{planemo: p, location: where} = tower5

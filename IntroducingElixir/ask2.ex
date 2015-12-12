@@ -5,7 +5,7 @@ Dale Weber <hybotics@skynet.run>
 From *Introducing Elixir*, O'Reilly Media, Inc., 2014.
 Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
 
-Modified: 06-dec-201 Dale Weber <hybotics@skynet.run> 
+Modified: 06-Dec-201 Dale Weber <hybotics@skynet.run> 
         I have heavily modified this code to add input error checking
         and conversion to using floats for the distance. I may pull
         some functions out of this module, and create a new Utility
