@@ -28,7 +28,6 @@ Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
         end
 
         :math.sqrt(2 * gravity * distance)
-
     end
 
 end

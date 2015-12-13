@@ -129,7 +129,7 @@ Which planet or moon are you on?
 
             case Float.parse(str) do
                 {_num, ""} -> true
-                {_num, _r} -> false               # _r : remainder_of_bianry
+                {_num, _r} -> false               # _r : remainder_of_binary
                 :error     -> false
             end
         end

@@ -17,16 +17,16 @@ Copyright 2014 by Simon St.Laurent and J. David Eisenberg.
     and the function returns a velocity in meters per second.
     """
 
-    @spec fallVelocity(tuple()) :: atom()
+    @spec fall_velocity(tuple()) :: atom()
 
-    def fallVelocity(where) do
+    def fall_velocity(where) do
         {planemo, distance} = where
 
         gravity = case planemo do
             :earth -> 9.8
             :moon -> 1.6
             :mars -> 3.71
-        end
+         end
 
         velocity = :math.sqrt(2 * gravity * distance)
 
