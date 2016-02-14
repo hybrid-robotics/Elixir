@@ -48,7 +48,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" assert-keyword="false" jdk-15="false" project-jdk-name="Elixir 1.2.1" project-jdk-type="Elixir SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
