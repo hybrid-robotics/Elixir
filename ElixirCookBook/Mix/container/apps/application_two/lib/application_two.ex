@@ -1,2 +1,0 @@
-defmodule ApplicationTwo do
-end

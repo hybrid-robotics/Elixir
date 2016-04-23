@@ -1,2 +1,0 @@
-defmodule ApplicationOne do
-end
