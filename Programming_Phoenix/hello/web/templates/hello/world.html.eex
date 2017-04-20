@@ -1,1 +1,1 @@
-<H1>From template: Hello World!</H1>
+<H1>Hello <%= String.capitalize @name %>!</H1>
