@@ -7,7 +7,7 @@ defmodule Rumbl.UserController do
 	end
 
 	def show(conn, %{"id" => id}) do
-		user = Repo.get(Rumbl.User, id)
+		users = Repo.get(Rumbl.User, id)
 		render conn, "show.html", users: users
 	end
 end
