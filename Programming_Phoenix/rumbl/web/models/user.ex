@@ -9,4 +9,10 @@ defmodule Rumbl.User do
 
 		timestamps()
 	end
+
+	def changeset(model, params \\ :empty) do
+		model
+		|> cast(params, ~w(name username), [])
+		|> validate_length(:username, min: 5, max: 50)
+	end
 end
