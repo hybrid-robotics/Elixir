@@ -3,4 +3,4 @@ Elixir projects
 
 Directories:
 
-    IntroducingElixir	From the book Introducing Elixir
+    IntroducingElixir	From the book Introducing Elixir# Elixir
